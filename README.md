@@ -1,6 +1,6 @@
 # react-native-svga-play
 
-react native 使用 svga 动画
+react native 使用 svga 动画,兼容android、ios
 
 ## 安装
 
