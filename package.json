@@ -1,0 +1,36 @@
+{
+  "name": "react-native-svga-play",
+  "title": "React Native Svga Play",
+  "version": "0.0.1",
+  "description": "react-native 使用 SVGA 动画",
+  "author":"wukongyang",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "index.d.ts",
+    "ios",
+    "react-native-svga-play.podspec"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "svga"
+  ],
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-native": "^0.70.1"
+  },
+  "devDependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-native": "^0.70.1"
+  }
+}
