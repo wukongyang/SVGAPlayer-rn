@@ -1,11 +1,11 @@
-# react-native-svga-play
+# svgaplayer-rn
 
 react native 使用 svga 动画,兼容android、ios
 
 ## 安装
 
 ```
-yarn add react-native-svga-play
+yarn add svgaplayer-rn
 ```
 
 
@@ -13,7 +13,7 @@ yarn add react-native-svga-play
 **Android:**
 
 ```
-react-native link react-native-svga-play
+react-native link svgaplayer-rn
 ```
 **Or**
 
@@ -30,7 +30,7 @@ run pod install
 ## 使用
 
 ```tsx
-import { SVGAView } from "react-native-svga-play";
+import { SVGAView } from "svgaplayer-rn";
 
 <SVGAView source={src} />
 
