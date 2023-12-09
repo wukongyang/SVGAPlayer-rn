@@ -16,3 +16,4 @@ import { SVGAView } from "react-native-svga-play";
 <SVGAView source={src} />
 
 ```
+![img](./daka.gif)
