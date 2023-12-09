@@ -8,6 +8,25 @@ react native 使用 svga 动画
 yarn add react-native-svga-play
 ```
 
+
+
+**Android:**
+
+```
+react-native link react-native-svga-play
+```
+**Or**
+
+auto link
+
+
+**iOS:**
+
+```
+cd ios
+run pod install
+```
+
 ## 使用
 
 ```tsx
