@@ -67,3 +67,11 @@ import { SVGAView } from "svgaplayer-rn";
 
 **stepToPercentage(toPercentage: number, andPlay: boolean)渲染特定百分比的帧，如果将percentage值设置为andPlaytrue，则该值应从0.0to到1.0该帧播放**
 
+## Possible issues
+**Building an OSAtomicCompareAndSwapPtrBarrier error when using SVGA on the iOS**  
+
+Build using xcode, locate the error file and add it at the top
+```
+#include <libkern/OSAtomic.h>
+```
+
