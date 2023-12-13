@@ -3,20 +3,20 @@ require "json"
 package = JSON.parse(File.read(File.join(__dir__, "package.json")))
 
 Pod::Spec.new do |s|
-  s.name         = "react-native-svga"
+  s.name         = "svgaplayer-rn"
   s.version      = package["version"]
   s.summary      = package["description"]
   s.description  = <<-DESC
-                  react-native-svga
+                  svgaplayer-rn
                    DESC
-  s.homepage     = "https://github.com/github_account/react-native-svga"
+  s.homepage     = "https://github.com/wukongyang/SVGAPlayer-rn"
   # brief license entry:
   s.license      = "MIT"
   # optional - use expanded license entry instead:
   # s.license    = { :type => "MIT", :file => "LICENSE" }
-  s.authors      = { "Your Name" => "yourname@email.com" }
+  s.authors      = { "wukongyang" => "694451448@qq.com" }
   s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => "https://github.com/github_account/react-native-svga.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/wukongyang/SVGAPlayer-rn.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,c,m,swift}"
   s.requires_arc = true
